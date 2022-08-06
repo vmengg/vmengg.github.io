@@ -1,0 +1,99 @@
+.shuxianghezi{
+    flex-direction: column;
+}
+.body {
+    margin: 0;
+    height: 100vh;
+    background-color: #47516B;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+  }
+  a{text-decoration:none} 
+  a:hover{text-decoration:none} 
+    body {
+      margin: 0;
+  
+      
+    }
+  .flex{display: flex;
+
+  }
+  .baise{
+      background-color: white;
+  }
+  .ziti{
+    font-style: italic;
+ }
+ .board-indexlj {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/photo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board-indexrw {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/photo8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board-indexsp {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/photo21.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    font-style: italic;
+    font-weight:500;
+ }
+ .yinying{
+    box-shadow: 7px 6px 5px #888888;
+}
+/*屏幕宽度小于768px时*/
+@media(max-width:768px) {
+.suoshui{
+width: 95%;
+}
+.dingbu{
+width:100%;
+
+}
+.wu{
+display: none;
+}
+.tupian{
+
+width: 100%;
+}
+.board-index {
+background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(http://storage.live.com/items/1E4148EF6D8FD434!1286:/photo6.jpg?authkey=AGO2bUosNacKkZw);
+background-size: cover;
+background-position: center;
+}
+}
+/*屏幕宽度大于768px时*/
+@media(min-width:768px){
+.dingbu2{
+width:95%;
+
+}
+
+.board-index {
+background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(http://storage.live.com/items/1E4148EF6D8FD434!1286:/photo6.jpg?authkey=AGO2bUosNacKkZw);
+background-size: cover;
+background-position: center;
+}
+}
+@media (max-width: 1099.9px){
+    .recommend-container__2-line {
+        grid-column: span 4;
+        grid-template-columns: repeat(4,1fr);
+    }}
+    .recommend-container__2-line {
+        position: relative;
+    }
+    .recommend-container__2-line {
+        width: 100%;
+        display: grid;
+        grid-gap: 20px 12px;
+    }
